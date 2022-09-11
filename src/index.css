@@ -8,13 +8,13 @@ main {
   --primary: black;
   --secondary: #F3A847;
   --tertiary: #B12704;
-  --light: rgb(25,23,22);
+  /* --light: rgb(25,23,22);
   --dark: rgb(251,255,254);
-  --darker: #111111;
+  --darker: #111111; */
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
+  --spacing-five: calc(2.5rem); 
 
 }
 
@@ -92,11 +92,15 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  color: white;
+  padding: 20px;
+  background-color: black;
+  justify-content: space-between;
+  
 }
 
 header a {
-  color: var(--light);
+  color: white;
 }
 
 button {
@@ -136,9 +140,10 @@ input {
   font-size: 1rem;
   padding: 0.25rem;
   border: 1px solid var(--dark);
-  outline: none;
+  outline: 1px solid #cccccc;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  margin: 10px;
 }
 
 input:focus {
@@ -161,8 +166,9 @@ nav  li {
 textarea {
 	width: 600px;
 	height: 120px;
-	border: 3px solid #cccccc;
+	border: 1px solid #cccccc;
 	padding: 5px;
+  margin: 10px;
 }
 
 .container {
@@ -293,3 +299,5 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+
