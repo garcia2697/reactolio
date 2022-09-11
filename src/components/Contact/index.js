@@ -44,11 +44,11 @@ function ContactForm() {
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email address:</label><br></br>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message">Message:</label> 
           <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (

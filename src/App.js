@@ -5,6 +5,7 @@ import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Gallery from './components/Gallery';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -32,15 +33,15 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        {!contactSelected ? (
+        
           <>
             <Gallery currentCategory={currentCategory}></Gallery>
-    
           </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }
