@@ -25,23 +25,27 @@ function App() {
 
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-          </>
-        
-      </main>
+      <div className='wrapper'>
+        <Nav
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+        ></Nav>
+        <main>
+          
+            <>
+              <Gallery currentCategory={currentCategory}></Gallery>
+            </>
+          
+        </main>
+      </div>
       <footer>
+        
         <Footer></Footer>
       </footer>
+
     </div>
   );
 }

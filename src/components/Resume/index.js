@@ -1,19 +1,19 @@
 import React from 'react'
-
+import resume1 from '../../assets/large/ResumePart1.png';
+import resume2 from '../../assets/large/ResumePart2.png'
+// import TrackStream from "../../assets/large/Track-Stream.png";
 
 function Resume() {
-
+  
   return (
-    <section className="my-5" >
-      <h1 id="about">What are you?</h1>
-      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
-      <div className="my-2">
-        <p>
-          Why the hell are you not showing up in the proper place?!?!?!
-      </p>
-      </div>
+    <section>
+        <img src={resume1} alt="GiHub Link Dimension is 1000W" />
+        <img src={resume2} alt="LinkedIn Link Dimension is 1000W" />
+        {/* <img src={TrackStream} alt="LinkedIn Link Dimension is 650W" /> */}
+        
+        
     </section>
-  )
+  );
 }
 
 export default Resume
