@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/reactolio/static/css/main.3864ca34.css",
+    "main.js": "/reactolio/static/js/main.746955d8.js",
+    "static/js/787.36fee45c.chunk.js": "/reactolio/static/js/787.36fee45c.chunk.js",
+    "static/media/intro.JPG": "/reactolio/static/media/intro.71a9a0c96615677a3884.JPG",
+    "static/media/Track-Stream.png": "/reactolio/static/media/Track-Stream.0bca6408cdbaaec723d7.png",
+    "static/media/GitGood.PNG": "/reactolio/static/media/GitGood.590647b6f9c77b7b91f1.PNG",
+    "static/media/ResumePart1.png": "/reactolio/static/media/ResumePart1.84f0f9965a1184f2d163.png",
+    "static/media/ResumePart2.png": "/reactolio/static/media/ResumePart2.c275ea7dd013a7212f9c.png",
+    "static/media/Reactolio.png": "/reactolio/static/media/Reactolio.91b639a67cebd1efeb05.png",
+    "static/media/employee-tracker.PNG": "/reactolio/static/media/employee-tracker.94e6e8a88c6201573ff4.PNG",
+    "static/media/port-generator.PNG": "/reactolio/static/media/port-generator.281f7d78297a4736c6cc.PNG",
+    "static/media/employee-testing.png": "/reactolio/static/media/employee-testing.2f6323639022443f84b9.png",
+    "static/media/deployed.png": "/reactolio/static/media/deployed.cebe47a0e5b0ea141fde.png",
+    "static/media/bootleg.PNG": "/reactolio/static/media/bootleg.a26edec319f7a5157b92.PNG",
+    "static/media/fresh.PNG": "/reactolio/static/media/fresh.4f081057e9c7796cd7cd.PNG",
+    "static/media/quiz.PNG": "/reactolio/static/media/quiz.7eb21cc2eea8281a5b2c.PNG",
+    "static/media/linkedin.png": "/reactolio/static/media/linkedin.76ecf9c530367e0140d4.png",
+    "index.html": "/reactolio/index.html",
+    "main.3864ca34.css.map": "/reactolio/static/css/main.3864ca34.css.map",
+    "main.746955d8.js.map": "/reactolio/static/js/main.746955d8.js.map",
+    "787.36fee45c.chunk.js.map": "/reactolio/static/js/787.36fee45c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3864ca34.css",
+    "static/js/main.746955d8.js"
+  ]
+}
