@@ -7,6 +7,8 @@ function Resume() {
   
   return (
     <div className='resume'>
+
+      
       
         <img src={resume1} alt="Resume Dimension is 1800W" />
         
