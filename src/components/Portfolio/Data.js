@@ -1,76 +1,134 @@
-import TrackStream from "../../assets/large/Track-Stream.png"
+import TrackStream from "../../assets/large/Track-Stream.png";
+import GitHub from '../../assets/small/github-logo.png';
+import Deployed from '../../assets/small/deployed.png';
+import walkThrough from '../../assets/small/video.png'
+
+import Reactolio from '../../assets/large/Reactolio.png';
+import GitGood from '../../assets/large/GitGood.PNG';
+import Bootleg from '../../assets/large/bootleg.PNG';
+import Quiz from '../../assets/large/quiz.PNG';
+import fresh from '../../assets/large/fresh.PNG';
+import ETest from '../../assets/large/employee-testing.png'
+import ETrack from '../../assets/large/employee-tracker.PNG'
+import generator from '../../assets/large/port-generator.PNG'
+// image dimensions should be 650x316 to keep consistency
 const Data = [
     {
       id: "1",
       title: "Track-Stream ",
-      category: "Front End",
-      price: "JavaScript",
+      category: "Full Stack",
+      language: "JavaScript, HTML, CSS, NodeJS, MySQL, etc",
       img: TrackStream,
-      desc: " ",
+      Github: <a data-testid="link" href="https://github.com/garcia2697/streaming-service-tracker" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h4 className="cardText"> Deployed Application:<a data-testid="link" href="https://shielded-thicket-83954.herokuapp.com/" target="_blank" rel="noreferrer"> 
+      <img src={Deployed} alt="Deployed Link Dimension is 50x50" />
+      </a> </h4>
     },
     {
-      id: "2",
-      title: "Quiz Time",
-      category: "Front End",
-      price: "$1",
-      img: TrackStream,
-      desc: " A quintessential South Indian Breakfast! Made with protein-packed urad dal and semolina followed by crunchy veggies and curd, this recipe makes for a hearty morning meal. With some grated coconut on top, it gives a beautiful south-Indian flavour.",
+        id: "2",
+        title: "Reactolio",
+        category: "Front End",
+        language: "REACT, CSS, JavaScript",
+        img: Reactolio,
+        Github: <a data-testid="link" href="https://github.com/garcia2697/reactolio" target="_blank" rel="noreferrer"> 
+        <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+        </a>,
+        Deployed: <h4 className="cardText">Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/reactolio/" target="_blank" rel="noreferrer"> 
+        <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
+        </a></h4>
     },
     {
       id: "3",
-      title: "Cheela",
+      title: "portfolio-generator",
       category: "Back End",
-      price: "$1",
-      img: TrackStream,
-      desc: "A staple across Indian households, moong dal is widely used in a number of Indian delicacies. One such delicacy is moong dal cheela. You can also add paneer to this recipe to amp up the nutritional value and make it, even more, protein-dense",
+      language: "NodeJS",
+      img: generator,
+      Github: <a data-testid="link" href="https://github.com/garcia2697/portfolio-generator" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h4 className="cardText"> Walkthrough Video: <a data-testid="link" href="https://drive.google.com/file/d/1Tg1S8TrO5oXJQ7vDbl-Wz3_aKE4PbJUs/view" target="_blank" rel="noreferrer"> 
+      <img src={walkThrough} alt="Deployed Link Dimension is 50x50" />
+      </a> </h4>,
     },
     {
       id: "4",
-      title: "Channa Kulcha",
-      category: "Back End",
-      price: "$1",
-      img: TrackStream,
-      desc: "A classic dish that never goes out of style. The quintessential chana kulcha  needs only a few ingredients - cumin powder, ginger, coriander powder, carom powder, and some mango powder, which is what gives the chana its sour and tangy taste.",
+      title: "Git-Good ",
+      category: "Front End",
+      language: "HTML, CSS",
+      img: GitGood,
+      Github: <a data-testid="link" href="https://github.com/garcia2697/GitGood" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h4 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/GitGood/" target="_blank" rel="noreferrer"> 
+      <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
+      </a></h4>,
     },
     {
       id: "5",
-      title: "Egg Curry",
-      category: "Back End",
-      price: "$1",
-      img: TrackStream,
-      desc: "Eggs are a versatile food that can be cooked for any meal of the day. From breakfast to dinner, it can be a go-to food. Here is a mildly-spiced egg curry made with garlic, onions, a whole lot of kasuri methi, fresh cream, yogurt, and fresh coriander.",
+      title: "bootleg-security",
+      category: "Front End",
+      language: "JavaScript, CSS, HTML",
+      img: Bootleg,
+      Github: <a data-testid="link" href="https://github.com/garcia2697/bootleg-security" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h4 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/bootleg-security/" target="_blank" rel="noreferrer"> 
+      <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
+      </a></h4>,
     },
     {
       id: "6",
-      title: "Paneer Aachari",
-      category: "Full Stack",
-      price: "$1",
-      img: TrackStream,
-      desc: "Don't get intimidated by the list of ingredients because not only are already in your kitchen cabinet, but also because all they'll need is 20 minutes of your time. Chunks of cottage cheese cooked in some exciting spices, yogurt and a pinch of sugar.",
+      title: "employee-tracker",
+      category: "Back End",
+      language: "NodeJS, MySQL",
+      img: ETrack,
+      Github: <a data-testid="link" href="https://github.com/garcia2697/employee-tracker" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h4 className="cardText"> Walkthrough Video: <a data-testid="link" href="https://drive.google.com/file/d/1rH9t_0Ssqxu-NKI2HNflwhMffPvi6xie/view" target="_blank" rel="noreferrer"> 
+      <img src={walkThrough} alt="Deployed Link Dimension is 50x50" />
+      </a> </h4>
     },
     {
       id: "7",
-      title: "Full Stack",
-      category: "Full Stack",
-      price: "$1",
-      img: TrackStream,
-      desc: "Get your daily dose of perfect protein. Pieces of surmai fish marinated in garlic, cumin, fennel, curry leaves, and tomatoes are pan-fried in refined oil and served hot. This fish fry recipe has a host of delectable spices used for marination giving it a unique touch.",
+      title: "Quiz Time",
+      category: "Front End",
+      language: "HTML, CSS, JavaScript",
+      img: Quiz,
+      Github: <a data-testid="link" href="https://github.com/garcia2697/quiz-time" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h4 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/quiz-time/" target="_blank" rel="noreferrer"> 
+      <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
+      </a></h4>,
     },
     {
       id: "8",
-      title: "Dum Alloo",
-      category: "Dinner",
-      price: "$1",
-      img: TrackStream,
-      desc: "Your family will thank you for this fantastic bowl of dum aloo cooked Lakhnawi style. Take some potatoes, crumbled paneer, kasuri methi, butter, onions, and some ghee.",
+      title: "fresh.ly",
+      category: "Front End",
+      language: "HTML, CSS, JavaScript",
+      img: fresh,
+      Github: <a data-testid="link" href="https://github.com/garcia2697/fresh.ly" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h4 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/fresh.ly/" target="_blank" rel="noreferrer"> 
+      <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
+      </a></h4>,
     },
     {
       id: "9",
-      title: "Malai Kofta",
-      category: "Dinner",
-      price: "$1",
-      img: TrackStream,
-      desc: "A rich gravy made of khus khus, coconut and milk that tastes best with koftas made from khoya. This velvety and creamy recipe will leave you licking your fingers. Makhmali kofte can be your go-to dish for dinner parties as this is quite different from other kofta recipes and extremely delicious.",
+      title: "Employee Testing",
+      category: "Back End",
+      language: "NodeJS, Jest, HTML",
+      img: ETest,
+      Github: <a data-testid="link" href="https://github.com/garcia2697/employee-testing" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h4 className="cardText"> Walkthrough Video: <a data-testid="link" href="https://drive.google.com/file/d/1rH9t_0Ssqxu-NKI2HNflwhMffPvi6xie/view" target="_blank" rel="noreferrer"> 
+      <img src={walkThrough} alt="Deployed Link Dimension is 50x50" />
+      </a> </h4>
     },
     
 ];

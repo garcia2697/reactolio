@@ -6,13 +6,15 @@ import resume2 from '../../assets/large/ResumePart2.png'
 function Resume() {
   
   return (
-    <section>
-        <img src={resume1} alt="GiHub Link Dimension is 1000W" />
-        <img src={resume2} alt="LinkedIn Link Dimension is 1000W" />
+    <div className='resume'>
+      
+        <img src={resume1} alt="Resume Dimension is 1800W" />
+        
+        <img src={resume2} alt="Resume Dimension is 1800W" />
         {/* <img src={TrackStream} alt="LinkedIn Link Dimension is 650W" /> */}
         
         
-    </section>
+    </div>
   );
 }
 
