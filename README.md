@@ -2,7 +2,14 @@
 Reactolio
 
 # Description
-This is 
+Portfolio using React.js
+
+# Additional technologies used
+Bootstrap React
+react-modal-image
+
+# Instruction
+React build instructions below
 
 # Getting Started with Create React App
 

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+// import About from '../About';
 
 function Nav(props) {
   const {
@@ -17,7 +18,7 @@ function Nav(props) {
   return (
     <header className="flex-row px-5 .navBar">
       <h1>
-        <a data-testid="link" href="/">
+        <a data-testid="link" href="/reactolio/">
           Portfolio
         </a>
       </h1>
