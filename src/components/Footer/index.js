@@ -8,7 +8,7 @@ function Footer() {
   
   return (
     <section>
-        
+        {/* icons will link to corresponding website */}
         <a data-testid="link" href="https://github.com/garcia2697"> 
         <img src={GitHub} alt="GiHub Link Dimension is 60x60" />
         </a>

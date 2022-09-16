@@ -1,8 +1,12 @@
-import TrackStream from "../../assets/large/Track-Stream.png";
+// imports all application icons
+
 import GitHub from '../../assets/x-small/github-logo.png';
 import Deployed from '../../assets/x-small/deployed.png';
 import walkThrough from '../../assets/x-small/video.png'
 
+// imports all repo images
+// image dimensions should be 650x316 to keep consistency
+import TrackStream from "../../assets/large/Track-Stream.png";
 import Reactolio from '../../assets/large/Reactolio.png';
 import GitGood from '../../assets/large/GitGood.PNG';
 import Bootleg from '../../assets/large/bootleg.PNG';
@@ -11,7 +15,8 @@ import fresh from '../../assets/large/fresh.PNG';
 import ETest from '../../assets/large/employee-testing.png'
 import ETrack from '../../assets/large/employee-tracker.PNG'
 import generator from '../../assets/large/port-generator.PNG'
-// image dimensions should be 650x316 to keep consistency
+
+
 const Data = [
     {
       id: "1",

@@ -1,6 +1,7 @@
 import React from "react";
 import Data from "./Data";
  
+// uses the data from the data file to filter out the data based off which one you press
 const Buttons = ({ filterItem, setItem, menuItems }) => {
   return (
     <>

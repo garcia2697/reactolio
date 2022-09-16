@@ -1,8 +1,9 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-// import About from '../About';
+
 
 function Nav(props) {
+  // selects categories based off what you clicked in the nav
   const {
     categories = [],
     setCurrentCategory,
@@ -14,6 +15,7 @@ function Nav(props) {
 
   return (
     <header className="flex-row px-5 .navBar">
+      {/* pressing the title page will take you to the home page */}
       <h1>
         <a data-testid="link" href="https://garcia2697.github.io/reactolio/">
           Luis Garcia
