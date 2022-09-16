@@ -16,7 +16,7 @@ function Nav(props) {
     <header className="flex-row px-5 .navBar">
       <h1>
         <a data-testid="link" href="https://garcia2697.github.io/reactolio/">
-          Portfolio
+          Luis Garcia
         </a>
       </h1>
       <nav>

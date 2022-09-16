@@ -10,6 +10,9 @@ react-modal-image
 
 # Screenshot of application
 ![Image of app](liveApp.PNG)
+
+# Link to live application
+https://garcia2697.github.io/reactolio/
 # Instruction
 React build instructions below
 
