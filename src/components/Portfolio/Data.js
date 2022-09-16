@@ -1,7 +1,7 @@
 import TrackStream from "../../assets/large/Track-Stream.png";
-import GitHub from '../../assets/small/github-logo.png';
-import Deployed from '../../assets/small/deployed.png';
-import walkThrough from '../../assets/small/video.png'
+import GitHub from '../../assets/x-small/github-logo.png';
+import Deployed from '../../assets/x-small/deployed.png';
+import walkThrough from '../../assets/x-small/video.png'
 
 import Reactolio from '../../assets/large/Reactolio.png';
 import GitGood from '../../assets/large/GitGood.PNG';
