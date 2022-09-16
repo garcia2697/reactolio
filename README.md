@@ -8,6 +8,8 @@ Portfolio using React.js
 Bootstrap React
 react-modal-image
 
+# Screenshot of application
+![Image of app](liveApp.PNG)
 # Instruction
 React build instructions below
 
