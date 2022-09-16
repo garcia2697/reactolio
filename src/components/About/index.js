@@ -2,7 +2,7 @@ import React from 'react'
 import Intro from '../../assets/large/intro.JPG';
 
 function About() {
-
+  
   return (
     <section className="my-5" >
       <div className="my-2">

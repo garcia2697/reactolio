@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
@@ -14,6 +14,10 @@ function App() {
     {name: 'Contact Me', description: <ContactForm></ContactForm> },
     {name: 'Resume', description: <Resume></Resume> },
   ]);
+
+  useEffect(() => {
+    document.title = "Reactolio"
+  }, []);
   
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   const [contactSelected, setContactSelected] = useState(false);
@@ -25,6 +29,7 @@ function App() {
 
   return (
     <div>
+    
       <div className='wrapper'>
         <Nav
           categories={categories}
