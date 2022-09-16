@@ -2,7 +2,7 @@
 Reactolio
 
 # Description
-Portfolio using React.js
+Portfolio using React.js as well as other ReactAPI. This repository also contains my resume and how to get in touch with me.
 
 # Additional technologies used
 Bootstrap React
@@ -10,6 +10,9 @@ react-modal-image
 
 # Screenshot of application
 ![Image of app](liveApp.PNG)
+
+# Link to application Repository
+https://github.com/garcia2697/reactolio
 
 # Link to live application
 https://garcia2697.github.io/reactolio/
