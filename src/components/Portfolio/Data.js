@@ -15,7 +15,7 @@ import fresh from '../../assets/large/fresh.PNG';
 import ETest from '../../assets/large/employee-testing.png'
 import ETrack from '../../assets/large/employee-tracker.PNG'
 import generator from '../../assets/large/port-generator.PNG'
-
+import paws from '../../assets/large/Happy-Paws.PNG'
 
 const Data = [
     {
@@ -135,6 +135,20 @@ const Data = [
       <img src={walkThrough} alt="Deployed Link Dimension is 50x50" />
       </a> </h4>
     },
+    {
+      id: "1",
+      title: "Happy Paws ",
+      category: "Full Stack",
+      language: "JavaScript, React, NodeJS, Apollo, MongoDB, etc",
+      img: paws,
+      Github: <a data-testid="link" href="https://github.com/garcia2697/vroom-vroom" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h4 className="cardText"> Deployed Application:<a data-testid="link" href="https://guarded-cove-87598.herokuapp.com/" target="_blank" rel="noreferrer"> 
+      <img src={Deployed} alt="Deployed Link Dimension is 50x50" />
+      </a> </h4>
+    }
+    
     
 ];
    
