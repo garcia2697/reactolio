@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactolio/static/css/main.52509da5.css",
-    "main.js": "/reactolio/static/js/main.f899a50f.js",
+    "main.js": "/reactolio/static/js/main.8c1ec89b.js",
     "static/js/787.36fee45c.chunk.js": "/reactolio/static/js/787.36fee45c.chunk.js",
     "static/media/intro.JPG": "/reactolio/static/media/intro.71a9a0c96615677a3884.JPG",
     "static/media/Track-Stream.png": "/reactolio/static/media/Track-Stream.0bca6408cdbaaec723d7.png",
@@ -16,15 +16,16 @@
     "static/media/insta.png": "/reactolio/static/media/insta.0fdfa6a8c308627be629.png",
     "static/media/bootleg.PNG": "/reactolio/static/media/bootleg.a26edec319f7a5157b92.PNG",
     "static/media/fresh.PNG": "/reactolio/static/media/fresh.4f081057e9c7796cd7cd.PNG",
+    "static/media/Happy-Paws.PNG": "/reactolio/static/media/Happy-Paws.53c09d3ae31787eb135e.PNG",
     "static/media/quiz.PNG": "/reactolio/static/media/quiz.7eb21cc2eea8281a5b2c.PNG",
     "static/media/linkedin.png": "/reactolio/static/media/linkedin.76ecf9c530367e0140d4.png",
     "index.html": "/reactolio/index.html",
     "main.52509da5.css.map": "/reactolio/static/css/main.52509da5.css.map",
-    "main.f899a50f.js.map": "/reactolio/static/js/main.f899a50f.js.map",
+    "main.8c1ec89b.js.map": "/reactolio/static/js/main.8c1ec89b.js.map",
     "787.36fee45c.chunk.js.map": "/reactolio/static/js/787.36fee45c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52509da5.css",
-    "static/js/main.f899a50f.js"
+    "static/js/main.8c1ec89b.js"
   ]
 }
