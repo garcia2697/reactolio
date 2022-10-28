@@ -9,7 +9,7 @@ const Card = ({ item }) => {
         <Row debug className="boo">
           {item.map((Val) => {
             return (
-              <Col sm={12} md={6} lg={4}  debug key={Val.id} className="boo">
+              <Col sm={12} md={6} lg={6}  debug key={Val.id} className="boo">
                 <div className="dataCard">
                   {/* title and image picture are contained here */}
                   {Val.title}
