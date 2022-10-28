@@ -4,6 +4,7 @@ main {
 	max-width: 90%;
   padding: 50px 30px;
 }
+
 :root {
   --primary: black;
   --secondary: #F3A847;
@@ -47,7 +48,7 @@ h4,
 h5,
 h6 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  
   margin: 5px 0;
   line-height: 1.25;
 }
@@ -69,7 +70,8 @@ h4 {
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.0rem;
+  
 }
 
 h6 {
@@ -124,10 +126,6 @@ button[disabled] {
   opacity: .8;
 }
 
-img {
-  /* max-width: 100%; */
-  /* padding-inline-end: 50px; */
-}
 
 .gitPhoto{
   padding-bottom: 10px;
@@ -176,12 +174,7 @@ textarea {
   margin: 10px;
 }
 
-.container {
-  /* width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto; */
-}
+
 
 .flex-row {
   display: flex;
@@ -242,7 +235,7 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  /* width: 25%; */
   text-align: center;
 }
 
@@ -333,13 +326,24 @@ footer{
   
 }
 
+.contain{
+  width: 100%;
+  display: inline;
+}
+
 .dataCard{
   /* padding-inline-end: 50px; */
-  margin-right: 50px;
-  padding-inline-start: 25px;
-  padding-inline-end: 25px;
-  outline: solid black 0.5px;
-  margin-bottom: 25px;
+  /* margin-right: 50px; */
+  /* padding-inline-start: 25px;
+  padding-inline-end: 25px; */
+  /* outline: solid black 0.5px; */
+  /* margin-bottom: 25px; */
+  width: 100%;
+  height:100%;
+}
+
+.react-grid-item.react-grid-placeholder {
+  background-color: white;
 }
 
 .cardText{
@@ -361,7 +365,6 @@ footer{
 
 }
 .langCard{
-  font-size: 1.0rem;
   padding-bottom: 20px;
 }
 
@@ -375,6 +378,10 @@ footer{
 .intro{
   font-size: x-large;
 }
+
+
+
+
 @media screen and (max-width:600px){
   .__react_modal_image__medium_img{
     height: 30%;   
@@ -405,4 +412,18 @@ footer{
   .intro{
     font-size: small;
   }
+  .dataCard{
+    /* padding-inline-end: 50px; */
+    margin-right: 50px;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+    outline: solid black 0.5px;
+    margin-bottom: 25px;
+    width: 100%;
+    height:auto;
+  }
+}
+
+.boo{
+  background-color: white;
 }

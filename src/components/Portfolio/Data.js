@@ -22,14 +22,15 @@ const Data = [
       id: "1",
       title: "Track-Stream ",
       category: "Full Stack",
-      language: "JavaScript, HTML, CSS, NodeJS, MySQL, etc",
+      language: "JavaScript, HTML, CSS, NodeJS, MySQL",
       img: TrackStream,
+      Desciption: "Track Stream's purpose is to keep you notified of all the video streaming services you are subscribed too. The application will give you a visual reminder of how much you're spending on streaming services and when the renewal period starts again.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/streaming-service-tracker" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
-      Deployed: <h4 className="cardText"> Deployed Application:<a data-testid="link" href="https://shielded-thicket-83954.herokuapp.com/" target="_blank" rel="noreferrer"> 
+      Deployed: <h5 className="cardText"> Deployed Application:<a data-testid="link" href="https://shielded-thicket-83954.herokuapp.com/" target="_blank" rel="noreferrer"> 
       <img src={Deployed} alt="Deployed Link Dimension is 50x50" />
-      </a> </h4>
+      </a> </h5>
     },
     {
         id: "2",
@@ -37,12 +38,13 @@ const Data = [
         category: "Front End",
         language: "REACT, CSS, JavaScript",
         img: Reactolio,
+        Desciption: "Full stack web application allowing users to add lost pets to the website.",
         Github: <a data-testid="link" href="https://github.com/garcia2697/reactolio" target="_blank" rel="noreferrer"> 
         <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
         </a>,
-        Deployed: <h4 className="cardText">Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/reactolio/" target="_blank" rel="noreferrer"> 
+        Deployed: <h5 className="cardText">Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/reactolio/" target="_blank" rel="noreferrer"> 
         <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
-        </a></h4>
+        </a></h5>
     },
     {
       id: "3",
@@ -50,12 +52,13 @@ const Data = [
       category: "Back End",
       language: "NodeJS",
       img: generator,
+      Desciption: "Generates a portfolio based off user input",
       Github: <a data-testid="link" href="https://github.com/garcia2697/portfolio-generator" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
-      Deployed: <h4 className="cardText"> Walkthrough Video: <a data-testid="link" href="https://drive.google.com/file/d/1Tg1S8TrO5oXJQ7vDbl-Wz3_aKE4PbJUs/view" target="_blank" rel="noreferrer"> 
+      Deployed: <h5 className="cardText"> Walkthrough Video: <a data-testid="link" href="https://drive.google.com/file/d/1Tg1S8TrO5oXJQ7vDbl-Wz3_aKE4PbJUs/view" target="_blank" rel="noreferrer"> 
       <img src={walkThrough} alt="Deployed Link Dimension is 50x50" />
-      </a> </h4>,
+      </a> </h5>,
     },
     {
       id: "4",
@@ -63,12 +66,13 @@ const Data = [
       category: "Front End",
       language: "HTML, CSS",
       img: GitGood,
+      Desciption: "Web application used as an online database for helping aspiring software developers get started.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/GitGood" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
-      Deployed: <h4 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/GitGood/" target="_blank" rel="noreferrer"> 
+      Deployed: <h5 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/GitGood/" target="_blank" rel="noreferrer"> 
       <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
-      </a></h4>,
+      </a></h5>,
     },
     {
       id: "5",
@@ -76,12 +80,13 @@ const Data = [
       category: "Front End",
       language: "JavaScript, CSS, HTML",
       img: Bootleg,
+      Desciption: "Generates a password for the user based off the variables the user gave.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/bootleg-security" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
-      Deployed: <h4 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/bootleg-security/" target="_blank" rel="noreferrer"> 
+      Deployed: <h5 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/bootleg-security/" target="_blank" rel="noreferrer"> 
       <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
-      </a></h4>,
+      </a></h5>,
     },
     {
       id: "6",
@@ -89,12 +94,13 @@ const Data = [
       category: "Back End",
       language: "NodeJS, MySQL",
       img: ETrack,
+      Desciption: "Creates a database that lets you keep track of what employees you have, their roles, and departments.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/employee-tracker" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
-      Deployed: <h4 className="cardText"> Walkthrough Video: <a data-testid="link" href="https://drive.google.com/file/d/1rH9t_0Ssqxu-NKI2HNflwhMffPvi6xie/view" target="_blank" rel="noreferrer"> 
+      Deployed: <h5 className="cardText"> Walkthrough Video: <a data-testid="link" href="https://drive.google.com/file/d/1rH9t_0Ssqxu-NKI2HNflwhMffPvi6xie/view" target="_blank" rel="noreferrer"> 
       <img src={walkThrough} alt="Deployed Link Dimension is 50x50" />
-      </a> </h4>
+      </a> </h5>
     },
     {
       id: "7",
@@ -102,12 +108,13 @@ const Data = [
       category: "Front End",
       language: "HTML, CSS, JavaScript",
       img: Quiz,
+      Desciption: "Test",
       Github: <a data-testid="link" href="https://github.com/garcia2697/quiz-time" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
-      Deployed: <h4 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/quiz-time/" target="_blank" rel="noreferrer"> 
+      Deployed: <h5 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/quiz-time/" target="_blank" rel="noreferrer"> 
       <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
-      </a></h4>,
+      </a></h5>,
     },
     {
       id: "8",
@@ -115,12 +122,13 @@ const Data = [
       category: "Front End",
       language: "HTML, CSS, JavaScript",
       img: fresh,
+      Desciption: "This repository contains a timed quiz that can be played multiple times.This quiz will also keep track of who has the highest score, by using local storage.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/fresh.ly" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
-      Deployed: <h4 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/fresh.ly/" target="_blank" rel="noreferrer"> 
+      Deployed: <h5 className="cardText"> Deployed Application: <a data-testid="link" href="https://garcia2697.github.io/fresh.ly/" target="_blank" rel="noreferrer"> 
       <img src={Deployed} alt="GiHub Link Dimension is 50x50" />
-      </a></h4>,
+      </a></h5>,
     },
     {
       id: "9",
@@ -128,12 +136,13 @@ const Data = [
       category: "Back End",
       language: "NodeJS, Jest, HTML",
       img: ETest,
+      Desciption: "Creates a quick employee database, that allows you to unit test",
       Github: <a data-testid="link" href="https://github.com/garcia2697/employee-testing" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
-      Deployed: <h4 className="cardText"> Walkthrough Video: <a data-testid="link" href="https://drive.google.com/file/d/1rH9t_0Ssqxu-NKI2HNflwhMffPvi6xie/view" target="_blank" rel="noreferrer"> 
+      Deployed: <h5 className="cardText"> Walkthrough Video: <a data-testid="link" href="https://drive.google.com/file/d/1rH9t_0Ssqxu-NKI2HNflwhMffPvi6xie/view" target="_blank" rel="noreferrer"> 
       <img src={walkThrough} alt="Deployed Link Dimension is 50x50" />
-      </a> </h4>
+      </a> </h5>
     },
     {
       id: "10",
@@ -141,12 +150,13 @@ const Data = [
       category: "Full Stack",
       language: "JavaScript, React, NodeJS, Apollo, MongoDB, etc",
       img: paws,
+      Desciption: "Full stack web application allowing users to add lost pets to the website.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/vroom-vroom" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
-      Deployed: <h4 className="cardText"> Deployed Application:<a data-testid="link" href="https://guarded-cove-87598.herokuapp.com/" target="_blank" rel="noreferrer"> 
+      Deployed: <h5 className="cardText"> Deployed Application:<a data-testid="link" href="https://guarded-cove-87598.herokuapp.com/" target="_blank" rel="noreferrer"> 
       <img src={Deployed} alt="Deployed Link Dimension is 50x50" />
-      </a> </h4>
+      </a> </h5>
     }
     
     
