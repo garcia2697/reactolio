@@ -136,7 +136,7 @@ const Data = [
       category: "Back End",
       language: "NodeJS, Jest, HTML",
       img: ETest,
-      Desciption: "Creates a quick employee database, that allows you to unit test",
+      Desciption: "Creates a quick employee database that allows you to unit test on all models.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/employee-testing" target="_blank" rel="noreferrer"> 
       <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
       </a>,
