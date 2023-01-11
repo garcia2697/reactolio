@@ -14,7 +14,7 @@ function About() {
 
 
       
-        <p className='intro'> You can reach out to me using the information in the Contact Me page. Feel free to check out my LinkedIn and GitHub using the links below. </p>
+        <p className='intro'> You can reach out to me using the information in the Contact Me page. Feel free to check out my LinkedIn and GitHub using the icons below. </p>
       </div>
     </section>
   )

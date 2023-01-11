@@ -1,7 +1,8 @@
 import React from 'react';
-import resume1 from '../../assets/large/ResumePart1.png';
+import resume1 from '../../assets/large/software_Resume.png';
 
 import download from '../../assets/x-small/download_icon.png';
+
 import PDF from '../../assets/large/software_Resume.pdf'
 
 
