@@ -16,13 +16,14 @@ import ETest from '../../assets/large/employee-testing.png'
 import ETrack from '../../assets/large/employee-tracker.PNG'
 import generator from '../../assets/large/port-generator.PNG'
 import paws from '../../assets/large/Happy-Paws.PNG'
+import Build from '../../assets/large/build.PNG'
 
 const Data = [
     {
       id: "1",
       title: "Track-Stream ",
       category: "Full Stack",
-      language: "JavaScript, HTML, CSS, NodeJS, MySQL",
+      Technologies: "JavaScript, HTML, CSS, NodeJS, MySQL",
       img: TrackStream,
       Desciption: "Track Stream's purpose is to keep you notified of all the video streaming services you are subscribed too. The application will give you a visual reminder of how much you're spending on streaming services and when the renewal period starts again.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/streaming-service-tracker" target="_blank" rel="noreferrer"> 
@@ -33,10 +34,24 @@ const Data = [
       </a> </h5>
     },
     {
-        id: "2",
+      id: "2",
+      title: "BuildTx ",
+      category: "Front End",
+      Technologies: "JavaScript, HTML, CSS, React, SASS",
+      img: Build,
+      Desciption: "Web application that retrieves construction pdf's using TxDOT API.",
+      Github: <a data-testid="link" href="https://github.com/garcia2697/skirt-skirt" target="_blank" rel="noreferrer"> 
+      <img src={GitHub} alt="GiHub Link Dimension is 50x50" />
+      </a>,
+      Deployed: <h5 className="cardText"> Deployed Application:<a data-testid="link" href="https://earnest-smakager-954b20.netlify.app/" target="_blank" rel="noreferrer"> 
+      <img src={Deployed} alt="Deployed Link Dimension is 50x50" />
+      </a> </h5>
+  },
+    {
+        id: "3",
         title: "Reactolio",
         category: "Front End",
-        language: "REACT, CSS, JavaScript",
+        Technologies: "REACT, CSS, JavaScript",
         img: Reactolio,
         Desciption: "Full stack web application allowing users to add lost pets to the website.",
         Github: <a data-testid="link" href="https://github.com/garcia2697/reactolio" target="_blank" rel="noreferrer"> 
@@ -47,10 +62,10 @@ const Data = [
         </a></h5>
     },
     {
-      id: "3",
+      id: "4",
       title: "portfolio-generator",
       category: "Back End",
-      language: "NodeJS",
+      Technologies: "NodeJS",
       img: generator,
       Desciption: "Generates a portfolio based off user input",
       Github: <a data-testid="link" href="https://github.com/garcia2697/portfolio-generator" target="_blank" rel="noreferrer"> 
@@ -61,10 +76,10 @@ const Data = [
       </a> </h5>,
     },
     {
-      id: "4",
+      id: "5",
       title: "Git-Good ",
       category: "Front End",
-      language: "HTML, CSS",
+      Technologies: "HTML, CSS",
       img: GitGood,
       Desciption: "Web application used as an online database for helping aspiring software developers get started.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/GitGood" target="_blank" rel="noreferrer"> 
@@ -75,10 +90,10 @@ const Data = [
       </a></h5>,
     },
     {
-      id: "5",
+      id: "6",
       title: "bootleg-security",
       category: "Front End",
-      language: "JavaScript, CSS, HTML",
+      Technologies: "JavaScript, CSS, HTML",
       img: Bootleg,
       Desciption: "Generates a password for the user based off the variables the user gave.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/bootleg-security" target="_blank" rel="noreferrer"> 
@@ -89,10 +104,10 @@ const Data = [
       </a></h5>,
     },
     {
-      id: "6",
+      id: "7",
       title: "employee-tracker",
       category: "Back End",
-      language: "NodeJS, MySQL",
+      Technologies: "NodeJS, MySQL",
       img: ETrack,
       Desciption: "Creates a database that lets you keep track of what employees you have, their roles, and departments.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/employee-tracker" target="_blank" rel="noreferrer"> 
@@ -103,10 +118,10 @@ const Data = [
       </a> </h5>
     },
     {
-      id: "7",
+      id: "8",
       title: "Quiz Time",
       category: "Front End",
-      language: "HTML, CSS, JavaScript",
+      Technologies: "HTML, CSS, JavaScript",
       img: Quiz,
       Desciption: "Test",
       Github: <a data-testid="link" href="https://github.com/garcia2697/quiz-time" target="_blank" rel="noreferrer"> 
@@ -117,10 +132,10 @@ const Data = [
       </a></h5>,
     },
     {
-      id: "8",
+      id: "9",
       title: "fresh.ly",
       category: "Front End",
-      language: "HTML, CSS, JavaScript",
+      Technologies: "HTML, CSS, JavaScript",
       img: fresh,
       Desciption: "This repository contains a timed quiz that can be played multiple times.This quiz will also keep track of who has the highest score, by using local storage.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/fresh.ly" target="_blank" rel="noreferrer"> 
@@ -131,10 +146,10 @@ const Data = [
       </a></h5>,
     },
     {
-      id: "9",
+      id: "10",
       title: "Employee Testing",
       category: "Back End",
-      language: "NodeJS, Jest, HTML",
+      Technologies: "NodeJS, Jest, HTML",
       img: ETest,
       Desciption: "Creates a quick employee database that allows you to unit test on all models.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/employee-testing" target="_blank" rel="noreferrer"> 
@@ -145,10 +160,10 @@ const Data = [
       </a> </h5>
     },
     {
-      id: "10",
+      id: "11",
       title: "Happy Paws ",
       category: "Full Stack",
-      language: "JavaScript, React, NodeJS, Apollo, MongoDB, etc",
+      Technologies: "JavaScript, React, NodeJS, Apollo, MongoDB, etc",
       img: paws,
       Desciption: "Full stack web application allowing users to add lost pets to the website.",
       Github: <a data-testid="link" href="https://github.com/garcia2697/vroom-vroom" target="_blank" rel="noreferrer"> 
